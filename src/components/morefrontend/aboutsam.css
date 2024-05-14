@@ -1,0 +1,68 @@
+.skillbar2 {
+    display: flex;
+    flex-direction: row; /* Arrange content horizontally */
+    align-items: center; /* Center align items vertically */
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 2rem 2rem;
+    background: rgb(50, 50, 50);
+    transition: border 0.3s; /* Smooth transition for border */
+}
+
+.education1 {
+    display: flex;
+    flex-direction: row; /* Arrange content horizontally */
+    align-items: center; /* Center align items vertically */
+    
+    font-size: 1.25rem; /* Increase text size */
+    padding: 1.5rem 2rem;
+    border-radius: 2rem 2rem;
+    background: rgb(50, 50, 50);
+    transition: border 0.3s; /* Smooth transition for border */
+} 
+.education1:hover{
+    border: solid rgb(159, 159, 25);
+}
+
+.major1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.skillbar2:hover {
+    border: solid rgb(159, 159, 25);
+}
+
+.skillbarimg2 {
+    object-fit: cover;
+    height: 10rem;
+    width: 10rem;
+    margin-right: 1rem; /* Add space between image and text */
+}
+
+.skillbartext2 {
+    font-size: 1.25rem; /* Increase text size */
+    text-align: center;
+    font-family: "cursive";
+}
+@media only screen and (max-width: 768px) {
+    .skillbarimg2, .educationimg {
+        height: 4rem; /* Adjust image height for smaller screens */
+        width: 4rem; /* Adjust image width for smaller screens */
+    }
+    
+    .skillbartext2, .educationtext {
+        font-size: 0.9rem; /* Decrease text size for smaller screens */
+    }
+
+    .skillbarheading, .educationheading {
+        font-size: 1.3rem; /* Decrease heading size for smaller screens */
+        
+    }
+    .education1 {
+        font-size: 0.8rem; /* Decrease font size for smaller screens */
+        padding: 0.5rem; /* Decrease padding for smaller screens */
+    }
+}

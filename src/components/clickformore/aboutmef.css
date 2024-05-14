@@ -1,0 +1,61 @@
+.skillbar1 {
+    display: flex;
+    flex-direction: column; /* Arrange content vertically */
+    align-items: center; /* Center align items horizontally */
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 2rem 2rem;
+    background: rgb(50, 50, 50);
+    transition: border 0.3s; /* Smooth transition for border */
+}
+
+
+.education {
+    display: flex;
+    flex-direction: column; /* Arrange content vertically */
+    align-items: center; /* Center align items horizontally */
+    margin: 1rem;
+    font-size: 1.25rem; /* Increase text size */
+    padding: 1.5rem 2rem;
+    border-radius: 2rem 2rem;
+    background: rgb(50, 50, 50);
+    transition: border 0.3s; /* Smooth transition for border */
+} 
+.education:hover {
+    border: solid rgb(159, 159, 25); 
+}
+.major {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.skillbar1:hover {
+    border: solid rgb(159, 159, 25);
+}
+
+.skillbarimg1 {
+    object-fit: cover;
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: 1rem; /* Add space between image and text */
+}
+
+
+.skillbar1:hover {
+    border: solid rgb(159, 159, 25);
+}
+
+.skillbarimg1 {
+    object-fit: cover;
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: 1rem; /* Add space between image and text */
+}
+
+.skillbartext1 {
+    font-size: 1.25rem; /* Increase text size */
+    text-align: center;
+    font-family:  "cursive";
+}
